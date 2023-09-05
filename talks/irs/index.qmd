@@ -4,7 +4,7 @@ format:
     #theme: ["theme/q-theme.scss"]
     slide-number: c/t
     logo: "https://salud.yucatan.gob.mx/files/get/2889?v=1669754780"
-    footer: "[github.com/fdzul](https://lovely-licorice-326d63.netlify.app/talks/irs/#/)"
+    footer: "[github.com/fdzul](https://jovial-zabaione-e28c0b.netlify.app/talks/irs/#/)"
     center-title-slide: true
 highlight-style: a11y
 ---
@@ -21,11 +21,13 @@ highlight-style: a11y
 
 <h5>Dr. Fabián Correa Morales</h5>
 
+<h5>Dr. Jorge Palacios-Vargas</h5>
+
 <h3>
 
 </h3>
 
-<h5>2022-01-24</h5>
+<h5>2023-09-05</h5>
 
 <br>
 
@@ -1637,14 +1639,13 @@ ggplot2::ggplot() +
 
 ![](parametros_irs.png)
 
-
 ## [Dios Botic]{style="color:#003300;"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
--   ***Bio*** : https://fdzul.github.io/web_site_fadm/
+-   ***Bio*** : [https://fdzul.github.io/web_site_fadm/]()
 
 -   ***email*** : [felipe.dzul.m@gmail.com]()
 
 -   ***celular*** : [8139945623, 9999580167]()
 
--   ***slides***: https://lovely-licorice-326d63.netlify.app/talks/irs/#/
+-   ***slides***: [https://jovial-zabaione-e28c0b.netlify.app/talks/irs/#/]()
