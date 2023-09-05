@@ -1,0 +1,444 @@
+---
+format: 
+  revealjs:
+    #theme: ["theme/q-theme.scss"]
+    slide-number: c/t
+    logo: "https://salud.yucatan.gob.mx/files/get/2889?v=1669754780"
+    footer: "[github.com/fdzul](https://lovely-licorice-326d63.netlify.app/talks/irs/#/)"
+    center-title-slide: true
+highlight-style: a11y
+---
+
+<h2>Rociado Residual Intradomiciliario<br>en el Control y la Prevención<br>de las ETVs</h2>
+
+<h2>
+
+</h2>
+
+<hr>
+
+<h4>Dr. Felipe Dzul Manzanilla</h4>
+
+<h5>Dr. Fabián Correa Morales</h5>
+
+<h3>
+
+</h3>
+
+<h5>2022-01-24</h5>
+
+<br>
+
+<h4>
+
+`r fontawesome::fa("github", "black")` [github.com/fdzul](https://fdzul.github.io/web_site_fadm/)
+
+![](irs.png){.absolute top="250" left="650" width="550"}
+
+## [Rociado Residual Intradomiciliario]{style="color:#003300;align-items: center"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+<br>
+<p style="color:#660033;">Objetivo</p>
+<br>
+<p style="color:#660033;">Actualizar al personal de vectores sobre los avances en las técnicas Rociado Residual Intradomiciliario (IRS) para el control de las Enfermedades Transmitidas por Vector (ETVs)</p>
+
+## [Rociado Residual Intradomiciliario^[Indoor Residual Spraying (IRS) en Ingles]]{style="color:#003300;align-items: center"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+<br>
+<p style="color:#660033;"> La aplicación de un insecticida en formas de gotas (100-200 micras) el interior de las superficies (paredes) de las viviendas con la finalidad de eliminar por largos periódos a los artrópodos de importancia en Salud Pública que aterrizan, descansan, o reptan en ellas ([WHO 2006](https://apps.who.int/iris/bitstream/handle/10665/69386/WHO_HTM_MAL_2006.1112_eng.pdf;sequence=1), [WHO 2007](https://www.who.int/publications/i/item/who-cds-ntd-whopes-gcdpp-2007.3), [WHO 2015](https://apps.who.int/iris/handle/10665/177242), [WHO 2019](https://www.paho.org/es/documentos/manual-para-aplicar-rociado-residual-intradomiciliario-zonas-urbanas-para-control-aedes))</p>
+
+
+## [Indoor Residual Spraying en las ETVs]{style="color:#003300;align-items: center"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+<html>
+<head>
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 1px;
+  background-color: #003300;
+  padding: 10px;
+}
+
+img {
+  border-radius: 50%;
+}
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.item_irs {
+  grid-column-start: 1;
+  grid-column-end: 6;
+}
+</style>
+</head>
+<body>
+<div class="grid-container">
+  <div class="item_irs">[**Indoor Residual Spraying**]{style="color:#003300"}</div>
+  <div class="item3">[**Paludismo**]{style="color:#003300"}</div>  
+  <div class="item4">[**Enfermedad de Chagas**]{style="color:#003300"}</div>
+  <div class="item3">[**Leishmaniasis**]{style="color:#003300"}</div>  
+  <div class="item4">[**Dengue**]{style="color:#003300"}</div>
+  <div class="item4">[**Filariasis**]{style="color:#003300"}</div>
+  <div class="item5"><img src="irs_oms_2015.png" width="200" height="200"></div>
+  <div class="item6"><img src="irs_oms_2006.png" width="200" height="200"></div> 
+  <div class="item5"><img src="irs_oms_2022.png" width="200" height="200"></div>
+  <div class="item6"><img src="irs_paho_2019.png" width="200" height="200"></div>
+  <div class="item6"><img src="irs_filasriasis.png" width="200" height="200"></div>
+  <div class="item6">[OMS, 2015](https://apps.who.int/iris/handle/10665/177242)</div> 
+  <div class="item6">[OMS, 2006](https://apps.who.int/iris/handle/10665/69223)</div> 
+  <div class="item5">[TDR, 2010](https://apps.who.int/iris/handle/10665/331955)</div>
+  <div class="item6">[PAHO, 2019](https://www.paho.org/es/documentos/manual-para-aplicar-rociado-residual-intradomiciliario-zonas-urbanas-para-control-aedes)</div> 
+  <div class="item6">[OMS, 2019]()</div> 
+</div>
+</body>
+</html>
+
+## [Artrópodos de Importancia Médica]{style="color:#003300;align-items: center"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+<br>
+<html>
+<head>
+<style>
+.item1 {
+  grid-area: myArea;
+}
+
+.grid-container_aim{
+  display: grid;
+  grid-template-areas: 'myArea myArea . . .' 'myArea myArea . . .' 'myArea myArea . . .';
+  gap: 10px;
+  background-color: #003300;
+  padding: 10px;
+}
+
+.grid-container_aim > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  vertical-align: top; 
+  padding: 10px 0;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+<div class="grid-container_aim">
+  <div class="item1"><img src="irs_oms_2006.png" width="300" height="300"></div>
+  <div class="item2"><img src="https://tse4.mm.bing.net/th?id=OIP.pTz_iv3zvTNCMvngw4Bt3AHaF7&pid=Api" width="150" height="150"></div>
+  <div class="item3">
+  <img src="http://upload.wikimedia.org/wikipedia/commons/9/99/Brown_recluse_spider%2C_Loxosceles_reclusa.jpg" width="150" height="150">
+  </div>  
+  <div class="item4"><img src="https://www.field-studies-council.org/wp-content/uploads/2020/09/Fleas.jpg" width="150" height="150">
+  </div>
+  <div class="item5">
+  <img src="https://1.bp.blogspot.com/-IOo63uEJB98/YN7E1fmOv9I/AAAAAAAAtRk/qFvPAw_tuDYX9-OYcTX5SB5NgI0FylowwCLcBGAsYHQ/s1200/clipping_I3rLPo_0028.jpg" width="150" height="150">
+  </div>
+  <div class="item6">
+  <img src="http://bugguide.net/images/raw/6KKK6KSKNK5KAKAQTKXKVKVQOKIKJ07KJ05QY09QF0GKCK7KDK5KWKQKTKWQAKUQZS7KJ07KHSVQRS.jpg" width="150" height="150"></div>
+  <div class="item7">
+  <img src="https://erradica.com/wp-content/uploads/2016/11/Remedios-caseros-para-eliminar-las-chinches..jpg" width="150" height="150">
+  </div>
+</div>
+
+</body>
+</html>
+
+
+## [Programa de Acción Específico & IRS]{style="color:#003300;align-items: center"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+<br>
+<html>
+<head>
+<style>
+.item1 {
+  grid-area: myArea;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-areas: 'myArea myArea . . .' 'myArea myArea . . .';
+  gap: 10px;
+  background-color: #660033;
+  padding: 10px;
+}
+
+.grid-container2 > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+<div class="grid-container2">
+  <div class="item1"><img src="pae_etvs.png" width="350" height="350"></div>
+  <div class="item2">[**Dengue**]{style="color:#003300"}</div>
+  <div class="item3">**Chagas**</div>  
+  <div class="item4">**IPPA**</div>
+  <div class="item5">Paludismo</div>
+  <div class="item6">Leishmaniasis</div>
+  <div class="item7">**Rickettsiosis**</div>
+</div>
+
+</body>
+</html>
+
+
+## [Objetivo del IRS]{style="color:#003300;align-items: center"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+### Objetivo General
+
+-  <p style="color:#660033;">Reducir e interrumpir la transmisión del agente causal</p>
+
+
+### Objetivos Específicos
+
+- <p style="color:#660033;">Reducir la esperanza de vida del vector a intervalos menores del periodo de incubación del agente causal.</p> 
+- <p style="color:#660033;">Reducir la prevalencia y la densidad del vector.</p>
+- <p style="color:#660033;">Reducir el contacto humano-vector.</p>
+
+## [Objetivo del IRS en la EC]{style="color:#003300;align-items: center"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+### Objetivo General
+
+-  <p style="color:#660033;">Eliminar, Reducir o Interrumpir la transmisión  de **T. cruzi**
+
+
+### Objetivos Específicos
+
+-	<p style="color:#660033;">Reducir la esperanza de vida de los triatominos a intervalos menores del período de incubación del agente causal.</p>
+-	<p style="color:#660033;">Reducir la prevalencia & la densidad de los triatominos.</p>
+-	<p style="color:#660033;">Reducir el contacto humano-triatominos.</p>
+
+## [Objetivos OPS (2019)]{style="color:#003300;align-items: center"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+<br>
+<html>
+<head>
+<style>
+.item1 {
+  grid-area: myArea;
+}
+
+.grid-container3 {
+  display: grid;
+  grid-template-areas: 'myArea.  .' 'myArea.  .';
+  gap: 10px;
+  background-color: #003300;
+  padding: 10px;
+}
+
+.grid-container3 > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+<div class="grid-container3">
+  <div class="item1"><img src="irs_paho_objetivos.png" width="350" height="350"></div>
+  <div class="item2"> Intradomicilio</div>
+  <div class="item3">Peridomicilio</div> 
+  <div class="item4">infestación =  cero*</div>
+  <div class="item4">infestación < 1%</div>
+</div>
+
+</body>
+</html>
+
+*por 3 años
+
+## [IRS o no IRS]{style="color:#003300;"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+<html>
+<head>
+<style>
+.item1 {
+  grid-area: myArea;
+}
+
+.grid-container4 {
+  display: grid;
+  grid-template-areas: 'myArea.  .' 'myArea.  .';
+  gap: 10px;
+  background-color: #003300;
+  padding: 10px;
+}
+
+.grid-container4 > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+<div class="grid-container4">
+  <div class="item1"><img src="ivm.png" width="350" height="450"></div>
+  <div class="item2"> Sin IRS <img src="unsprayed.png"></div>
+
+</div>
+
+</body>
+</html>
+
+
+## [IRS o no IRS]{style="color:#003300;"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+<html>
+<head>
+<style>
+.item1 {
+  grid-area: myArea;
+}
+
+.grid-container4 {
+  display: grid;
+  grid-template-areas: 'myArea.  .' 'myArea.  .';
+  gap: 10px;
+  background-color: #003300;
+  padding: 10px;
+}
+
+.grid-container4 > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+<div class="grid-container4">
+  <div class="item1"><img src="ivm.png" width="350" height="450"></div>
+  <div class="item2"> Con IRS <img src="sprayed.png"></div>
+
+</div>
+
+</body>
+</html>
+
+## [Uso Racional de los Insecticidas^[[OMS, 2002](https://apps.who.int/iris/handle/10665/67365)]]{style="color:#003300;"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+```{r}
+DiagrammeR::grViz("
+digraph circo {
+graph [layout = circo]
+node [shape = circle,
+      style = filled, nodesep = 1, fixedsize = false, width = 2]
+a [label = 'Uso Sensato de los Insecticidas',  fillcolor =  '#767676', color = 'white', fontcolor = 'white', fontsize = 14]
+
+b [label = 'Que Aplicar',  fillcolor =  '#ECB22E', color = 'white', fontcolor = 'white',  fontsize = 20]
+c [label = 'Cuando Aplicar',  fillcolor =  '#E01E5A', color = 'white', fontcolor = 'white', fontsize = 20]
+
+d [label = 'Con que Aplicar',  fillcolor =  '#0F9D58', color = 'white', fontcolor = 'white', fontsize = 20]
+e [label = 'Como Aplicar',  fillcolor =  '#36C5F0', color = 'white', fontcolor = 'white', fontsize = 20]
+f [label = 'Donde Aplicar',  fillcolor =  '#FF5A5F', color = 'white', fontcolor = 'white', fontsize = 20]
+
+
+edge [color = grey]
+
+
+a -> {b c d e f}
+}")
+```
+
+
+## [Uso Racional de los Insecticidas^[[OMS, 2004](https://www.who.int/publications/i/item/WHO-CDS-WHOPES-2004.9a-b)]]{style="color:#003300;"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+```{r}
+DiagrammeR::grViz("digraph {
+                  # graph definitions
+  graph [layout = dot, rankdir = TB]
+  
+  # node definitions
+  node [shape = rectangle, style = filled, color = grey, 
+  nodesep = 1, 
+  fixedsize = true, 
+  width = 12] 
+  
+  # edge definition
+  edge [color = grey, arrowhead = normal, arrowtail = dot]
+  
+  ##### datasets
+  
+  step1 [label = 'Describir & Analizar la situación de las ETVS',  fillcolor =  '#0F9D58', color = 'white', fontcolor = 'white', fontsize = 20]
+  
+  step2 [label = 'Estratificar la ETV basado en variables relevantes',  fillcolor =  ' #0F9D58', color = 'white', fontcolor = 'white', fontsize = 20]
+  
+  step3 [label = 'Determinar el control de vectores en cada estrato',  fillcolor =  ' #0F9D58', color = 'white', fontcolor = 'white',fontsize = 20]
+
+  step4 [label = 'Determinar qué método(s) es(son) adecuado(s)',  fillcolor =  ' #0F9D58', color = 'white', fontcolor = 'white', fontsize = 20]
+ 
+ # 
+ step5 [label = 'Cuando el uso de insecticidas sea esencial, seleccionar el(los) método(s) de aplicación',  fillcolor =  '#DB4437', color = 'white', fontcolor = 'white', fontsize = 20]
+ 
+
+ # final dataset
+ 
+ step6 [label = 'Determinar qué insecticida usar y cuándo, dónde y cómo aplicarlo',  fillcolor =  '#DB4437', color = 'white', fontcolor = 'white', fontsize = 20]
+ 
+ ###
+ step7 [label = 'Establecer productos y objetivos operativos y seleccionar métodos de seguimiento y evaluación',  fillcolor =  '#2EB67D', color = 'white', fontcolor = 'white', fontsize = 20]
+ 
+ ##### define the relation
+ 
+ step1 -> step2 -> step3 -> step4 -> step5 -> step6 -> step7
+ 
+ 
+}")
+```
+
+## [Ciclo de Vida del IRS^[[OMS, 2015](https://www.who.int/publications/i/item/9789241508940)]]{style="color:#003300;"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+![](irs_cycle.png)
+
+## [Insecticidas para el IRS de la EC]{style="color:#003300;"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+
+## [Recomendados por OMS]{style="color:#003300;"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+
+
+
+## [Recomendados por el CENAPRECE]{style="color:#003300;"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+
+## [Dios Botic]{style="color:#003300;"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+-   ***Bio*** : https://fdzul.github.io/web_site_fadm/
+
+-   ***email*** : [felipe.dzul.m\@gmail.com]()
+
+-   ***celular*** : [8139945623]()
+
+-   ***slides***: https://lovely-licorice-326d63.netlify.app/talks/irs/#/
