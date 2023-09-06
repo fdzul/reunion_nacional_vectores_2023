@@ -1333,15 +1333,21 @@ ggplot2::ggplot() +
 :::: {.columns}
 
 ::: {.column width="40%"}
-![](patternator.png)
-![](spray_coverage.png)
+![](patternator.png){width="100%" fig-align="center"}
+
 :::
 
 ::: {.column width="60%"}
-![](8002_vs_8002E.png)
+![](coberage_distance.png){width="100%" fig-align="center"}
 :::
 
 ::::
+
+
+## [Boquilla para IRS]{style="color:#0F9D58;"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+![](pattern_8002E.png){width="100%" fig-align="center"}
 
 
 ## [Como Aplicar]{style="color:#36C5F0;"}
