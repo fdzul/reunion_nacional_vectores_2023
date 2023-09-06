@@ -457,7 +457,7 @@ DiagrammeR::grViz("digraph {
 ## [Ciclo de Vida del IRS^[[OMS, 2015](https://www.who.int/publications/i/item/9789241508940)]]{style="color:#003300;"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
-![](irs_cycle.png){width=90%}
+![](irs_cycle.png){fig-align="center" width=90%}
 
 ## [Que Aplicar]{style="color:#ECB22E;"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
@@ -491,7 +491,7 @@ a -> {b c d e f}
 :::: {.columns}
 
 ::: {.column width="40%"}
-![](who 2012 .png){width=100%}
+![](who 2012 .png){fig-align="center" width=100%}
 :::
 
 ::: {.column width="60%"}
@@ -511,7 +511,7 @@ Cual es el producto más adecuado tomando en consideración su<p style="color:#2
 :::: {.columns}
 
 ::: {.column width="30%"}
-![](who 2012 .png){width=100%}
+![](who 2012 .png){fig-align="center" width=100%}
 :::
 
 ::: {.column width="70%"}
@@ -535,7 +535,7 @@ Cual es el producto más adecuado tomando en consideración su<p style="color:#2
 :::: {.columns}
 
 ::: {.column width="30%"}
-![](who 2012 .png){width=100%}
+![](who 2012 .png){fig-align="center" width=100%}
 :::
 
 ::: {.column width="70%"}
@@ -701,16 +701,15 @@ a -> {b c d e f}
 :::: {.columns}
 
 ::: {.column width="40%"}
-![](donde_aplicar.png){width=100%}
+![](donde_aplicar.png){fig-align="center" width=100%}
 :::
 
 ::: {.column width="60%"}
-Estratificación de Riesgo ó Escenarios Epidemiológicos.
-
-- En todo México en que localidades
-- En una ciudad en que áreas
-- En en el interior o en peridomicilio.
+- En México: en que localidades
+- En una ciudad: en que áreas
+- En una casa: en el interior o en peridomicilio.
 - En en el interior: en el baño, sala, comedor, ó dormitorio.
+- En en el peridomicilio: en el baño, sala, comedor, ó dormitorio.
 
 :::
 
@@ -766,14 +765,15 @@ DiagrammeR::grViz("digraph {
 ```
 
 
+## [Estratifición del Riesgo]{style="color:#FF5A5F;"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+![](niveles_transmision.png){fig-align="center" width=100%}
 
 ## [Donde Aplicar en Arbovirosis]{style="color:#FF5A5F;"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
-- Transmisión Persistente (Hotspots).
-- Transmisión Activa (Cadenas de Transmisión).
-
-
+![](mia_escenarios_flowchart.png){fig-align="center" width=100%}
 
 ## [Transmisión Persistente (Hotspots)]{style="color:#003300"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
@@ -1076,9 +1076,6 @@ a | b
 ![](life_cycle_gonotrophic.png){width=100%}
 
 
-
-
-
 ## [Donde Aplicar^[[Sean-arwut et al 2023](https://parasitesandvectors.biomedcentral.com/articles/10.1186/s13071-023-05746-9)]]{style="color:#FF5A5F;"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
@@ -1112,7 +1109,6 @@ a | b
 
 
 ![](Ariqueta 2022.png){width=100% fig-align="center"}
-
 
 ## [Cuando Aplicar]{style="color:#E01E5A;"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
@@ -1304,6 +1300,12 @@ ggplot2::ggplot() +
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
 ![](cfv.png){fig-align="center"}
+
+## [CFV]{style="color:#0F9D58;"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+
+
 
 ## [Valvulas de Control de Flujo (CFV)]{style="color:#0F9D58;"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
