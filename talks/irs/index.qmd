@@ -1065,7 +1065,7 @@ a | b
 ## [Donde Aplicar]{style="color:#FF5A5F;"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
-![](life_cycle_culicidae2.png){fig-align="center"}
+![](life_cycle_culicidae2.png){fig-align="center" width=100%}
 
 
 
@@ -1073,7 +1073,7 @@ a | b
 ## [Donde Aplicar^[[Childs et al 2016](https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1006060)]]{style="color:#FF5A5F;"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
-![](life_cycle_gonotrophic.png)
+![](life_cycle_gonotrophic.png){width=100%}
 
 
 
@@ -1082,7 +1082,7 @@ a | b
 ## [Donde Aplicar^[[Sean-arwut et al 2023](https://parasitesandvectors.biomedcentral.com/articles/10.1186/s13071-023-05746-9)]]{style="color:#FF5A5F;"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
-![](resting_tai.png)
+![](resting_tai.png){width=100%}
 
 
 ## [Donde Aplicar]{style="color:#FF5A5F;"}
@@ -1091,11 +1091,11 @@ a | b
 :::: {.columns}
 
 ::: {.column width="40%"}
-![](resting_site_mx.png)
+![](resting_site_mx.png){width=100%}
 :::
 
 ::: {.column width="60%"}
-![](resting_mx.png)
+![](resting_mx.png){width=100%}
 :::
 
 ::::
@@ -1104,7 +1104,15 @@ a | b
 ## [Donde Aplicar^[[Facchinelli et al 2023](https://academic.oup.com/pnasnexus/article/2/7/pgad226/7225909)]]{style="color:#FF5A5F;"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
-![](IRS_fachinelli.png)
+![](IRS_fachinelli.png){width=100% fig-align="center"}
+
+
+## [Donde Aplicar]{style="color:#FF5A5F;"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+
+![](Ariqueta 2022.png){width=100% fig-align="center"}
+
 
 ## [Cuando Aplicar]{style="color:#E01E5A;"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
