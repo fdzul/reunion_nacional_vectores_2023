@@ -1330,7 +1330,7 @@ ggplot2::ggplot() +
 ## [Boquillas]{style="color:#0F9D58;"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
-![](even_flat_spray.png){width="100%" fig-align="center"}
+![](flat_spray.png){width="100%" fig-align="center"}
 
 ## [Boquilla para IRS]{style="color:#0F9D58;"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
