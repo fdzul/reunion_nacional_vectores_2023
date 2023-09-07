@@ -87,7 +87,6 @@ propoxur3 <- tibble::tibble(flow = rep(seq(from = 100,
 propoxur <- dplyr::bind_rows(propoxur1, propoxur2, propoxur3)
 
 
-
 ggplot2::ggplot() +
     ggplot2::geom_rect(data = propoxur,
                        ggplot2::aes(xmin = 550, 
@@ -146,39 +145,4 @@ ggplot2::ggplot() +
                    plot.title.position = "plot") 
 
 
-
-
-ggplot2::ggplot() +
-    ggplot2::geom_line(data = propoxur, 
-                       ggplot2::aes(x = flow,
-                                    y = dose),
-                       linewidth = 1) +
-    ggplot2::geom_point(data = propoxur, 
-                        ggplot2::aes(x = flow,
-                                     y = dose), 
-                        shape = 21,
-                        fill = "black",
-                        size = 3,
-                        col = "#E01E5A") +
-    ggplot2::facet_grid(facets = c(#"volumen_total", 
-        "Sobres",
-        "volumen_total"),
-        scales = "free") +
-    ggplot2::ylab("Doses (gr. i.a/m2)") +
-    ggplot2::xlab("Flow (ml/min") +
-    ggplot2::geom_vline(xintercept = 550, 
-                        col = "#2EB67D",
-                        linetype = 3) +
-    ggplot2::geom_vline(xintercept = 550 + 55, 
-                        col = "#2EB67D",
-                        linetype = 3) +
-    ggplot2::geom_hline(yintercept = 1, 
-                        col = "#2EB67D",
-                        linetype = 3) +
-    ggplot2::geom_hline(yintercept = 2, 
-                        col = "#2EB67D",
-                        linetype = 3) +
-    ggplot2::scale_x_continuous(breaks = seq(from = 0, 
-                                             to = 1300, 
-                                             by = 200))
 

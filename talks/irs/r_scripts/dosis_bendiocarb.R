@@ -137,15 +137,17 @@ ggplot2::ggplot() +
     ggplot2::scale_x_continuous(breaks = seq(from = 0, 
                                              to = 1300, 
                                              by = 200)) +
+    ggplot2::labs(title = paste("Dosis Estimadas para ", 
+                                   #"<span style='color: #4285F4'>**DENV1**</span>",
+                                   #"<span style='color: #2EB67D'>**DENV2**</span>",
+                                   "<span style='color: #E01E5A'>**Triatomas**</span>",
+                                "&",
+                                   "<span style='color: #ECB22E'>**Aedes**</span>."))+ 
     ggplot2::theme(strip.text = ggplot2::element_text(size=12, 
-                                                      colour="black")) +
-    ggplot2::labs(
-        title = "**Fisher's *Iris* dataset**  
-    <span style='font-size:11pt'>Sepal width vs. sepal length for 
-    <span style='color:#0072B2;'>setosa</span>, 
-    <span style='color:#D55E00;'>versicolor</span>, and
-    <span style='color:#009E73;'>virginica</span>
-    </span>"
-    ) 
-
-
+                                                      colour="black"),
+                   plot.title = ggtext::element_textbox_simple(face = "bold"),
+                   plot.subtitle = ggtext::element_textbox_simple(face = "bold",
+                                                                  margin = ggplot2::margin(t = 20),
+                                                                  lineheight = 3),
+                   #axis.text.x = ggplot2::element_text(angle = 90),
+                   plot.title.position = "plot") 
