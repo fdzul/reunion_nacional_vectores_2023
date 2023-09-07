@@ -1327,6 +1327,11 @@ ggplot2::ggplot() +
 
 ![](even_flat_spray.png){width="100%" fig-align="center"}
 
+## [Boquillas]{style="color:#0F9D58;"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+![](even_flat_spray.png){width="100%" fig-align="center"}
+
 ## [Boquilla para IRS]{style="color:#0F9D58;"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
@@ -1342,7 +1347,7 @@ ggplot2::ggplot() +
 
 :::
 
-::: {.column width="60%"}
+::: {.column width="40%"}
 ![](coberage_distance.png){width="100%" fig-align="center"}
 :::
 
