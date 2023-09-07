@@ -22,5 +22,7 @@ ggplot2::ggplot() +
                       width = 0.6,
                       col = "black",
                       fill = "#2EB67D") +
-    ggplot2::facet_grid("boquilla")
+    ggplot2::facet_grid("boquilla")+
+    ggplot2::ylab("Volumen (ml)") +
+    ggplot2::xlab("Canales 2.5 cm")
 

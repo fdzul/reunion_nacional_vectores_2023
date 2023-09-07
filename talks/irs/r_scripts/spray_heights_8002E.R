@@ -17,17 +17,18 @@ ggplot(data = x,
        aes(y = abanico, 
            x = distancia)) +
     geom_point(size = 2,
-               fill = "white",
+               fill = "#E01E5A",
                shape = 21,
                stroke = 2.5,
                col = "#2EB67D") +
     geom_vline(xintercept = 45, linetype = 2) +
     geom_hline(yintercept = 75.6, linetype = 2) +
-    xlab("Distancia a la Pared ") +
-    ylab("Abanico")
+    xlab("Distancia de la boquilla a la Pared (cm)") +
+    ylab("Amplitud (cm)")
         
 mod <- lm(abanico~distancia, data = x)
 predict(mod)
+summary(mod)
 #define new observation
 newdata = data.frame(distancia= c(45, 48))
 
